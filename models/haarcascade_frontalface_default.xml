@@ -1,0 +1,7 @@
+import os
+
+cascade_path = "models/haarcascade_frontalface_default.xml"
+
+print("Cascade path:", os.path.abspath(cascade_path))
+print("Exists:", os.path.exists(cascade_path))
+print("Size:", os.path.getsize(cascade_path))
